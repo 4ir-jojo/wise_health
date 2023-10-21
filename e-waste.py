@@ -6,7 +6,6 @@ from roboflow import Roboflow
 from PIL import Image
 import africastalking
 
-
 rf = Roboflow(api_key="aQONY7aSjUN7H1sSqu0s")
 project = rf.workspace().project("e-waste-detection-model")
 model = project.version(3).model
