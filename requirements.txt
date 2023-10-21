@@ -1,4 +1,4 @@
 africastalking
-Roboflow
+roboflow
 streamlit
 Pillow
