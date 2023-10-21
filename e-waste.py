@@ -5,7 +5,7 @@ import tempfile
 from roboflow import Roboflow
 from PIL import Image
 import africastalking
-pip freeze > requirements.txt 
+
 
 rf = Roboflow(api_key="aQONY7aSjUN7H1sSqu0s")
 project = rf.workspace().project("e-waste-detection-model")
